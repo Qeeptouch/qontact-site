@@ -1,0 +1,38 @@
+[
+  {
+    "img": "/assets/images/testimoial/testimonialProfileThumb1_1.png",
+    "subTitle": "Gerente",
+    "title": "David Martinez",
+    "desc": "Antes llevábamos todo en Excel y fichaban en papel. Con Qontact pudimos digitalizar el control de asistencia sin que los choferes tengan que instalar nada. Ahora fichan por WhatsApp y tenemos reportes al instante."  
+  },
+  {
+    "img": "/assets/images/testimoial/testimonialProfileThumb1_2.png",
+    "subTitle": "HR Manager",
+    "title": "Mariana Fernandez",
+    "desc": "Lo que más valoro de Qontact es que no tuvimos que cambiar nada: seguimos usando WhatsApp, pero con datos en tiempo real. Es simple y se adapta a nuestra forma de trabajar."
+  },
+  {
+    "img": "/assets/images/testimoial/testimonialProfileThumb1_3.png",
+    "subTitle": "Directora de administración",
+    "title": "Lucía Pereyra",
+    "desc": "Fue muy sencillo implementar Qontact y nos ayudó a ordenar las ausencias y justificar cada inasistencia con novedades claras. Nos ahorró muchísimo tiempo en el área administrativa."
+  },
+  {
+    "img": "/assets/images/testimoial/testimonialProfileThumb1_1.png",
+    "subTitle": "Gerente",
+    "title": "David Martinez",
+    "desc": "Antes llevábamos todo en Excel y fichaban en papel. Con Qontact pudimos digitalizar el control de asistencia sin que los choferes tengan que instalar nada. Ahora fichan por WhatsApp y tenemos reportes al instante."  
+  },
+  {
+    "img": "/assets/images/testimoial/testimonialProfileThumb1_4.png",
+    "subTitle": "Gerente",
+    "title": "Hector Roldan",
+    "desc": "Probamos varios sistemas, pero eran muy complicados. Qontact fue distinto: en un día lo teníamos funcionando. Los empleados entendieron todo sin capacitaciones y el equipo de soporte siempre está disponible."  
+  }, 
+  {
+    "img": "/assets/images/testimoial/testimonialProfileThumb1_5.png",
+    "subTitle": "Team Leader",
+    "title": "Carla Benítez",
+    "desc": "Con Qontact dejamos atrás el caos de los grupos de WhatsApp y los audios para justificar ausencias. Ahora todo queda registrado, es transparente y podemos tomar decisiones con información confiable"
+  }  
+]

@@ -1,0 +1,26 @@
+[
+  {  
+    "title": "¿Qué necesito para implementar Qontact?",
+    "desc": "Solo necesitás una conexión a internet, una cuenta de WhatsApp y los datos básicos de tus colaboradores. No hace falta instalar nada ni comprar dispositivos. La implementación es 100% online, rápida y acompañada por nuestro equipo para que empieces a usar Qontact en 24 horas."
+  },
+  {
+    "title": "¿Qué tipo de reportes obtengo con Qontact?",
+    "desc": "Qontact te brinda reportes automáticos y en tiempo real sobre asistencias, ausencias, llegadas tarde, horas trabajadas y novedades del personal. Podés filtrar por fechas, áreas, colaboradores y exportar toda la información en Excel para análisis o control interno."
+  },
+  {
+     "title": "¿Qué tipo de empresas puede utilizar Qontact?",
+    "desc": "Qontact está pensado para todo tipo de empresas, especialmente aquellas con equipos distribuidos o con operaciones que requieren control de asistencia diario. Desde PyMEs hasta grandes empresas de diferentes industrias como retail, gastronomía, salud o limpieza."
+  },
+  {  
+    "title": "¿Qué tipo de empresas puede utilizar Qontact?",
+    "desc": "Qontact está pensado para todo tipo de empresas, especialmente aquellas con equipos distribuidos o con operaciones que requieren control de asistencia diario. Desde PyMEs hasta empresas medianas de diferentes rubros como logística, retail, servicios, salud o industria."
+  },
+  {
+    "title": "Need an easy way to manage your projects?",
+    "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly"
+  },
+  {
+     "title": "Seeking a user-friendly solution for your team?",
+    "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly"
+  }  
+]
