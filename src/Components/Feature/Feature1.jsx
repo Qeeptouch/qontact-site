@@ -29,7 +29,7 @@ const Feature1 = () => {
                                      <FeatureCard
                                         img="/assets/images/icon/wcuIcon1_2.svg"
                                         title="Alertas"
-                                        content="Enterate cuando falta personal en los turnos"
+                                        content="Entérate cuando falta personal en los turnos"
                                     ></FeatureCard>    
                                       <FeatureCard
                                         img="/assets/images/icon/wcuIcon1_3.svg"
@@ -51,7 +51,7 @@ const Feature1 = () => {
                                     <FeatureCard
                                         img="/assets/images/icon/wcuIcon1_1.svg"
                                         title="Licencias"
-                                        content="Los colaboradores pueden solicitar licencias agilmente"
+                                        content="Los colaboradores pueden solicitar licencias ágilmente"
                                     ></FeatureCard>
                                     <FeatureCard
                                         img="/assets/images/icon/wcuIcon1_5.svg"
@@ -61,7 +61,7 @@ const Feature1 = () => {
                                     <FeatureCard
                                         img="/assets/images/icon/wcuIcon1_6.svg"
                                         title="Reportes"
-                                        content="Obtene reportes de asistencia, faltas y novedades"
+                                        content="Obtén reportes de asistencia, faltas y novedades"
                                     ></FeatureCard> 
                                 </div>
                             </div>

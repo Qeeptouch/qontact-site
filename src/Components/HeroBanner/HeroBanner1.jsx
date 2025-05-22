@@ -20,7 +20,16 @@ const HeroBanner1 = ({subtitle,title,content,btnname,btnurl,btntwo,btn2url,cusim
                             <div className="col-xl-7 order-1 order-xl-1">
                                 <div className="intro-content">
                                     <div className="intro-section-title">
-                                        <div className="intro-subtitle hero1-cta">
+                                        <div className="intro-title fadeInUp mobile-only hero-login-button">
+                                            <Link to="https://dashboard.qeeptouch.com/login" className="theme-btn">
+                                                <span>
+                                                    Ingresar
+                                                    <i className="bi bi-arrow-right"></i>
+                                                </span>
+                                            </Link>
+
+                                        </div>
+                                        <div className="intro-subtitle ">
                                             {parse(subtitle)} <img
                                                 src="/assets/images/icon/fireIcon.svg" alt="icon" />
                                         </div>
