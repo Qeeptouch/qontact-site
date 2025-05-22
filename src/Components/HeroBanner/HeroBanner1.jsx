@@ -17,10 +17,10 @@ const HeroBanner1 = ({subtitle,title,content,btnname,btnurl,btntwo,btn2url,cusim
                             alt="shape" /></div> */}
                     <div className="container">
                         <div className="row">
-                            <div className="col-xl-7 order-2 order-xl-1">
+                            <div className="col-xl-7 order-1 order-xl-1">
                                 <div className="intro-content">
                                     <div className="intro-section-title">
-                                        <div className="intro-subtitle">
+                                        <div className="intro-subtitle hero1-cta">
                                             {parse(subtitle)} <img
                                                 src="/assets/images/icon/fireIcon.svg" alt="icon" />
                                         </div>

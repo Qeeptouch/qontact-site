@@ -5769,7 +5769,7 @@ input.main-search-input::placeholder {
 .intro-wrapper.style1 {
   position: relative;
   border-radius: 50px;
-  background: rgba(116, 68, 253, 0.06);
+  background: rgba(133, 133, 133, 0.06);
   margin-top: 40px;
 }
 @media (max-width: 767px) {
@@ -11385,4 +11385,12 @@ textarea.is-invalid {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.hero1-cta {
+    margin-top: 40px;
+}
+
+.hero1-large-image {
+    margin-bottom: 140px;
 }
