@@ -62,8 +62,9 @@ export default function Header1({ variant }) {
             <div className="cs_main_header_right">
               <div className="header-btn d-flex align-items-center">
 
-              <a onClick={() => setSearchToggle(!searchToggle)} className="search-trigger search-icon"><i className="bi bi-search"></i></a>
-                <div className="header-button ms-4">
+                <a onClick={() => setSearchToggle(!searchToggle)} className="search-trigger search-icon"><i className="bi bi-search"></i></a>
+              </div>
+              <div className="header-button ms-4">
                     <Link to="https://dashboard.qeeptouch.com/login" className="theme-btn">
                         <span>
                             Ingresar
@@ -72,7 +73,7 @@ export default function Header1({ variant }) {
                     </Link>
 
                 </div>
-              </div>
+
             </div>
           </div>
         </div>
