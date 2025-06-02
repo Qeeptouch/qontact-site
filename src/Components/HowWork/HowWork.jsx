@@ -8,7 +8,7 @@ const HowWork = () => {
                     <div className="section-title text-center mxw-565 mx-auto">
                         <SectionTitle
                             SubTitle="Control de asistencia"
-                            Title="Implementá Qontact<br/>en 24hs"
+                            Title="Implementá Qontact en 24hs"
                         ></SectionTitle>
                     </div>
                     <div className="work-process-wrapper style1">
