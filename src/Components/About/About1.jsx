@@ -31,9 +31,9 @@ const About1 = ({img1,img2,subtitle,title,content,FeatureList,btnname,btnurl}) =
                             <div className="col-xl-6">
                                 <div className="about-content">
                                     <div className="section-title">
-                                        <div className="subtitle wow fadeInUp" data-wow-delay=".2s">
+                                        {/* <div className="subtitle wow fadeInUp" data-wow-delay=".2s">
                                             {subtitle} <img src="/assets/images/icon/fireIcon.svg" alt="icon" />
-                                        </div>
+                                        </div> */}
                                         <h2 className="title wow fadeInUp" data-wow-delay=".4s">{title}</h2>
                                         <p className="section-desc wow fadeInUp" data-wow-delay=".6s">{content}</p>
                                     </div>
@@ -43,7 +43,7 @@ const About1 = ({img1,img2,subtitle,title,content,FeatureList,btnname,btnurl}) =
                                     ))}
                                     </ul>
                                     <Link className="theme-btn wow fadeInUp" data-wow-delay=".2s" to={btnurl}>{btnname}
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                                        {/* <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
                                             fill="none">
                                             <g clipPath="url(#clip0_18_41)">
                                                 <path
@@ -55,7 +55,7 @@ const About1 = ({img1,img2,subtitle,title,content,FeatureList,btnname,btnurl}) =
                                                     <rect width="16" height="16" fill="white" />
                                                 </clipPath>
                                             </defs>
-                                        </svg>
+                                        </svg> */}
                                     </Link>
                                 </div>
                             </div>
