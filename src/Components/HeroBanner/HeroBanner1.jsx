@@ -29,16 +29,16 @@ const HeroBanner1 = ({subtitle,title,content,btnname,btnurl,btntwo,btn2url,cusim
                                             </Link>
 
                                         </div>
-                                        <div className="intro-subtitle ">
+                                        {/* <div className="intro-subtitle ">
                                             {parse(subtitle)} <img
                                                 src="/assets/images/icon/fireIcon.svg" alt="icon" />
-                                        </div>
+                                        </div> */}
                                         <h1 className="intro-title wow fadeInUp" data-wow-delay=".2s">{title}</h1>
                                         <p className="intro-desc wow fadeInUp" data-wow-delay=".4s">{content}</p>
                                     </div>
                                     <div className="btn-wrapper style1 wow fadeInUp" data-wow-delay=".6s">
                                         <Link className="theme-btn" to={btnurl}>{btnname}
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            {/* <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                 viewBox="0 0 16 16" fill="none">
                                                 <g clipPath="url(#clip0_11_22)">
                                                     <path
@@ -50,12 +50,12 @@ const HeroBanner1 = ({subtitle,title,content,btnname,btnurl,btntwo,btn2url,cusim
                                                         <rect width="16" height="16" fill="white" />
                                                     </clipPath>
                                                 </defs>
-                                            </svg>
+                                            </svg> */}
 
                                         </Link>
                                         <Link className="theme-btn style2 wow fadeInUp" data-wow-delay=".2s"
                                             to={btn2url}>{btntwo}
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            {/* <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                 viewBox="0 0 16 16" fill="none">
                                                 <g clipPath="url(#clip0_11_27)">
                                                     <path
@@ -67,7 +67,7 @@ const HeroBanner1 = ({subtitle,title,content,btnname,btnurl,btntwo,btn2url,cusim
                                                         <rect width="16" height="16" fill="white" />
                                                     </clipPath>
                                                 </defs>
-                                            </svg>
+                                            </svg> */}
                                         </Link>
                                     </div>
                                     <div className="fancy-box-wrapper style1">
