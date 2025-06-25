@@ -9,9 +9,9 @@ const Pricing1 = () => {
         <section className="pricing-section section-padding pt-0 fix">
         <div className="container">
             <div className="section-title text-center mxw-685 mx-auto">
-                <div className="subtitle">
+                {/* <div className="subtitle">
                     Planes <img src="/assets/images/icon/fireIcon.svg" alt="icon" />
-                </div>
+                </div> */}
                 <h2 className=" ">Elegí el mejor plan que se adapte a tu empresa!</h2>
                 <p className="text">Si te quedan dudas contactanos y te asesoramos para elegir el mejor plan para tu empresa
                 </p>

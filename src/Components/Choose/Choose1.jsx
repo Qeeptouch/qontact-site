@@ -12,9 +12,9 @@ const Choose1 = ({subtitle,title,content,FeatureList,FeatureList2,btnname,btnurl
                                 <div className="col-xl-6 order-2 order-xl-1">
                                     <div className="advantage-content">
                                         <div className="section-title wow fadeInUp" data-wow-delay=".2s">
-                                            <div className="subtitle">
+                                            {/* <div className="subtitle">
                                                 {subtitle} <img src="/assets/images/icon/fireIcon.svg" alt="icon" />
-                                            </div>
+                                            </div> */}
                                             <h2 className="title">{title}</h2>
                                             <p className="section-desc">{content}</p>
                                         </div>
