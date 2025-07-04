@@ -51,19 +51,34 @@ const Pricing1 = () => {
                                 btnname="Get You Free plan"
                                 btnurl="/pricing"
                             ></PricingCard> */}
-
                             <PricingCard
-                                name="Standard"
-                                // price="$19.99"
+                                name="Lite"
+                                //price="$1.00"
                                 // monthly="Per Month"
                                 content="Pensado para empresas que comienzan a digitalizar su control de asistencia"
                                 FeatureList={[
-                                    "7 días de prueba",
-                                    "Máximo de 30 colaboradores",
+                                    "15 días de prueba gratuita",
+                                    "Control de entradas",
+                                    "Control de salidas",
+                                    "Máximo 5 puntos de control",
+                                    "Backup de datos por 3 meses",                        
+                                    "Soporte Web",
+                                ]} 
+                                btnname="Quiero más info!"
+                                btnurl="https://wa.me/+5491155930422?text=Quiero%20más%20info%20sobre%20el%20plan%20Standard%20de%20Qontact"
+                            ></PricingCard>
+                            <PricingCard
+                                name="Standard"
+                                // price="$2.50"
+                                // monthly="Per Month"
+                                content="Pensado para empresas que aman digitalizar su control de asistencia"
+                                FeatureList={[
+                                    "Todo lo incluido en Lite más:",
+                                    "Control de llegadas tarde",
+                                    "Control de turnos",
+                                    "Alarmas de falta de personal",                                    
                                     "Capacidad del legajo digital 1GB",
-                                    "Máximo 10 puntos de control",
-                                    "Back up de datos por 1 año",
-                                    "Soporte por WhatsApp",
+                                    "Soporte por Web y WhatsApp",
                                 ]} 
                                 btnname="Quiero más info!"
                                 btnurl="https://wa.me/+5491155930422?text=Quiero%20más%20info%20sobre%20el%20plan%20Standard%20de%20Qontact"
@@ -73,13 +88,13 @@ const Pricing1 = () => {
                                 name="Company"
                                 // price="$24.99"
                                 // monthly="Per Month"
-                                content="Pensado para empresas que buscan un control de asistencia más completo"
+                                content="Pensado para empresas que buscan más que un simple control de asistencia"
                                 FeatureList={[
-                                    "15 días de prueba",
-                                    "Sin límite de colaboradores",
-                                    "Capacidad del legajo digital 3GB",
+                                    "Toto lo incluido en Standard más:",
                                     "Sin límite de puntos de control",
-                                    "Back up de datos por 3 años",
+                                    "Reporte de ausencias y novedades",
+                                    "Solicitudes de licencias",                                                                    
+                                    "Acceso prioritario a nuevas features",
                                     "Soporte por WhatsApp y teléfonico",
                                 ]} 
                                 btnname="Quiero más info!"

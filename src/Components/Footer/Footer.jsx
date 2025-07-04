@@ -106,7 +106,7 @@ const Footer = () => {
                         <div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="single-footer-widget">
                                 <div className="contact-box">
-                                    <div className="subtitle">Queres empezar?</div>
+                                    <div className="subtitle">Contacto</div>
                                     {/* <div className="widget-head">Queres empezar?</div> */}
                                     <div className="text">Envianos un email, escribinos por WhatsApp o llamanos y te asesoramos!
                                     </div>
@@ -122,7 +122,7 @@ const Footer = () => {
                                             </svg>
                                         </div>
                                         <div className="link">
-                                            <a href="mailto:comercial@qeeptouch.com">comercial@qeeptouch.com</a>
+                                            <a href="mailto:info@qeeptouch.com">info@qeeptouch.com</a>
                                         </div>
                                     </div>
                                     <div className="info">
@@ -144,7 +144,7 @@ const Footer = () => {
                                             </svg>
                                         </div>
                                         <div className="link">
-                                            <a href="tel:5491155930422"> 🇦🇷 AR +54 9 11 5593 0422</a> <br/>
+                                            <a href="https://wa.me/+5491155930422?text=Quiero%20más%20info%20de%20Qontact"> 🇦🇷 AR +54 9 11 5593 0422</a> <br/>
                                             <a href="tel:50223164454"> 🇬🇹 GT +502 2316 4454</a>
                                         </div>
                                     </div>
