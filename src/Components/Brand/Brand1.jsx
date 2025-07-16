@@ -7,13 +7,13 @@ const Brand1 = () => {
     const settings = {
         dots: false,
         infinite: true,
-        speed: 2000,
+        speed: 4000,
         slidesToShow: 5,
         slidesToScroll: 1,
         arrows: false,
         swipeToSlide: true,
         autoplay: true,
-        autoplaySpeed: 2000,             
+        autoplaySpeed: 500,             
         responsive: [
           {
             breakpoint: 1399,
