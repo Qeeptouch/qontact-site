@@ -71,8 +71,9 @@ const Home = () => {
             <Faq1></Faq1>
             <Testimonial></Testimonial>
             <br /><br /><br /><br /> 
-            {/* <Feature2></Feature2> */}
+            
             <Pricing1></Pricing1>
+            <Feature2></Feature2>
         </div>
     );
 };
