@@ -19,16 +19,7 @@ const Home = () => {
             <HeroBanner1
                 subtitle="<span>Control de asistencia!</span>"
                 title="Controlá la asistencia con WhatsApp"
-                content={
-                    <>
-                    <span className="solo-desktop">
-                    Automatizá el control de asistencia en segundos y desde cualquier ubicación. Reducí costos operativos y mejorá el control de tu equipo sin complicaciones.
-                    </span>
-                    <span className="solo-mobile">
-                    Automatizá el control de asistencia en segundos y desde cualquier ubicación.
-                    </span>
-                    </>
-                        }
+                content="Automatizá el control de asistencia en segundos y desde cualquier ubicación. Reducí costos operativos y mejorá el control de tu equipo sin complicaciones."
                 btnname="Escribinos"
                 btnurl="https://wa.me/+5491155930422"
                 btntwo="Pedi una demo"
