@@ -23,7 +23,7 @@ const Home = () => {
                 btnname="Escribinos"
                 btnurl="https://wa.me/+5491155930422"
                 btntwo="Pedi una demo"
-                btn2url="https://calendly.com/d/yp5-w2r-8pc/30min?month=2025-05"
+                btn2url="https://calendly.com/d/cwdz-v6j-4t5/demo-qontact"
                 cusimg="/assets/images/intro/introProfileThumb1_1.png"
                 cusnumber="+12.500"
                 cuscontent="Colaboradores felices"
@@ -44,7 +44,7 @@ const Home = () => {
                     "Control de asistencia 24/7.",
                 ]}                
                 btnname="Pedí una demo"
-                btnurl="https://calendly.com/d/yp5-w2r-8pc/30min?month=2025-05"
+                btnurl="https://calendly.com/d/cwdz-v6j-4t5/demo-qontact"
             ></About1>
             <HowWork></HowWork>
             <Choose1
@@ -60,7 +60,7 @@ const Home = () => {
                     "100% en la nube",
                 ]}                 
                 btnname="Pedí una demo"
-                btnurl="https://calendly.com/d/yp5-w2r-8pc/30min?month=2025-05"
+                btnurl="https://calendly.com/d/cwdz-v6j-4t5/demo-qontact"
             ></Choose1>
             {/* <section className="arcade">
                 
