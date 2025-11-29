@@ -22,8 +22,8 @@ const Home = () => {
                 content="Automatizá el control de asistencia en segundos y desde cualquier ubicación. Reducí costos operativos y mejorá el control de tu equipo sin complicaciones."
                 btnname="Escribinos"
                 btnurl="https://wa.me/+5491155930422"
-                btntwo="Pedi una demo"
-                btn2url="https://calendly.com/d/cwdz-v6j-4t5/demo-qontact"
+                btntwo="Probá la demo"
+                btn2url="https://demo.qontact.com.ar"
                 cusimg="/assets/images/intro/introProfileThumb1_1.png"
                 cusnumber="+12.500"
                 cuscontent="Colaboradores felices"
@@ -43,7 +43,7 @@ const Home = () => {
                     "Reportes en tiempo real.",
                     "Control de asistencia 24/7.",
                 ]}                
-                btnname="Pedí una demo"
+                btnname="Contacta un asesor"
                 btnurl="https://calendly.com/d/cwdz-v6j-4t5/demo-qontact"
             ></About1>
             <HowWork></HowWork>
