@@ -5881,8 +5881,8 @@ input.main-search-input::placeholder {
   font-weight: 300;
   line-height: 80px;
   letter-spacing: -1.28px;
-  margin-bottom: 1px;
-  margin-top: 21px;
+  margin-bottom: 50px;
+  margin-top: 25px;
 }
 @media (max-width: 1199px) {
   .intro-wrapper.style1 .intro-content .intro-section-title .intro-title {
@@ -5910,7 +5910,7 @@ input.main-search-input::placeholder {
   font-weight: 500;
   line-height: 28px;
   letter-spacing: -0.32px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 .intro-wrapper.style1 .intro-content .btn-wrapper {
   display: flex;
