@@ -85,11 +85,11 @@ const HeroBanner1 = ({subtitle,title,content,btnname,btnurl,btntwo,btn2url,cusim
                                             <div className="rating">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="77" height="13"
     viewBox="0 0 77 13" fill="none">
-    <defs>
+   <defs>
         <linearGradient id="halfStarGradient" x1="64" y1="0" x2="77" y2="0" gradientUnits="userSpaceOnUse">
             <stop offset="75%" stopColor="#E97430" />
             <stop offset="10%" stopColor="#565656" />
-        </linearGradient>
+        </linearGradient>//
     </defs>
     <g clipPath="url(#clip0_20_34)">
         <path
