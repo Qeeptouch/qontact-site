@@ -7,8 +7,8 @@ const HeroBanner1 = ({subtitle,title,content,btnname,btnurl,btntwo,btn2url,cusim
         <div className="intro-container-wrapper style1">
             <div className="container">
                 <div className="intro-wrapper style1 fix">
-                    <div className="shape1"><img src="/assets/images/shape/introShape1_1.png" alt="shape" /></div>
-                    <div className="shape2"><img src="/assets/images/shape/introShape1_2.png" alt="shape" /></div>
+                    {/* <div className="shape1"><img src="/assets/images/shape/introShape1_1.png" alt="shape" /></div>
+                    <div className="shape2"><img src="/assets/images/shape/introShape1_2.png" alt="shape" /></div> */}
                     {/* <div className="shape3 d-none d-xxl-block cir36"><img src="assets/images/shape/introShape1_3.png"
                             alt="shape" /></div>
                     <div className="shape4 d-none d-xxl-block cir36"><img src="/assets/images/shape/introShape1_4.png"
@@ -72,9 +72,9 @@ const HeroBanner1 = ({subtitle,title,content,btnname,btnurl,btntwo,btn2url,cusim
                                     </div>
                                     <div className="fancy-box-wrapper style1">
                                         <div className="fancy-box style1 wow fadeInUp" data-wow-delay=".2s">
-                                            <div className="item">
+                                            {/* <div className="item">
                                                 <img src={cusimg} alt="thumb" />
-                                            </div>
+                                            </div> */}
                                             <div className="item">
                                                 <h6>{cusnumber}</h6>
                                                 <p>{cuscontent}</p>
@@ -83,13 +83,12 @@ const HeroBanner1 = ({subtitle,title,content,btnname,btnurl,btntwo,btn2url,cusim
                                         <div className="fancy-box style5 wow fadeInUp" data-wow-delay=".4s">
                                             <h6>{rating}</h6>
                                             <div className="rating">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="77" height="13"
-    viewBox="0 0 77 13" fill="none">
-   <defs>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="77" height="13" viewBox="0 0 77 13" fill="none">
+    <defs>
         <linearGradient id="halfStarGradient" x1="64" y1="0" x2="77" y2="0" gradientUnits="userSpaceOnUse">
             <stop offset="75%" stopColor="#E97430" />
             <stop offset="10%" stopColor="#565656" />
-        </linearGradient>//
+        </linearGradient>
     </defs>
     <g clipPath="url(#clip0_20_34)">
         <path
@@ -122,10 +121,10 @@ const HeroBanner1 = ({subtitle,title,content,btnname,btnurl,btntwo,btn2url,cusim
                             </div>
                             <div className="col-xl-5 order-1 order-xl-2">
                                 <div className="intro-thumb">
-                                    <div className="thumbShape1"><img src="/assets/images/shape/introThumbShape1_1.png"
-                                            alt="thumbShape" /></div>
-                                    <div className="thumbShape2"><img src="/assets/images/shape/introThumbShape1_2.png"
-                                            alt="thumbShape" /></div>
+                                    {/* <div className="thumbShape1"><img src="/assets/images/shape/introThumbShape1_1.png"
+                                            alt="thumbShape" /></div> */}
+                                    {/* <div className="thumbShape2"><img src="/assets/images/shape/introThumbShape1_2.png"
+                                            alt="thumbShape" /></div> */}
                                     <img className="main-thumb img-custom-anim-right wow fadeInUp" data-wow-delay=".4s"
                                         src={img} alt="thumb" />
                                 </div>
