@@ -10,21 +10,21 @@ const About1 = ({img1,img2,subtitle,title,content,FeatureList,btnname,btnurl}) =
                         <div className="row gy-5 gx-60">
                             <div className="col-xl-6">
                                 <div className="about-thumb">
-                                    <div img1="/assets/images/shape/wcuThumbShape1_1.png" ></div>
-                                    <div className="thumbShape1 d-none d-xxl-block cir36"><img
-                                            src="/assets/images/shape/aboutThumbShape1_1.png" alt="shape" /></div>
+                                    {/* <div img1="/assets/images/shape/wcuThumbShape1_1.png" ></div> */}
+                                    {/* <div className="thumbShape1 d-none d-xxl-block cir36"><img
+                                            src="/assets/images/shape/aboutThumbShape1_1.png" alt="shape" /></div> */}
                                     {/* <div className="thumbShape2 d-none d-xxl-block cir36"><img
                                             src="/assets/images/shape/aboutThumbShape1_2.png" alt="shape" /></div> */}
-                                    <div className="thumbShape3 d-none d-xxl-block cir36 float-bob-y"><img
-                                            src="/assets/images/shape/aboutThumbShape1_3.png" alt="shape" /></div>
+                                    {/* <div className="thumbShape3 d-none d-xxl-block cir36 float-bob-y"><img
+                                            src="/assets/images/shape/aboutThumbShape1_3.png" alt="shape" /></div> */}
                                     {/* <div className="thumbShape4 d-none d-xxl-block cir36"><img
                                             src="/assets/images/shape/aboutThumbShape1_4.png" alt="shape" /></div> */}
                                     <div className="main-thumb">
                                         <img src={img1} alt="thumb" />
                                     </div>
-                                    <div className="absolute-thumb float-bob-x">
+                                    {/* <div className="absolute-thumb float-bob-x">
                                         <img src={img2} alt="thumb" />
-                                    </div>
+                                    </div> */}
     
                                 </div>
                             </div>

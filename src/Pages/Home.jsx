@@ -36,14 +36,14 @@ const Home = () => {
                 img1="/assets/images/about/aboutThumb1_1.png"
                 img2="/assets/images/about/aboutThumb1_2.png"
                 subtitle="Sobre Qontact"
-                title="Reportes simples con fichaje ágil"
-                content="Nuestro sistema de control ayuda al área de recursos humanos a gestionar de la manera más eficiente la asistencia de los colaboradores."
+                title="Si controlar asistencia se volvió otra carga más, es momento de simplificar"
                 FeatureList={[
-                    "Integrado 100% a WhatsApp.",
-                    "Reportes en tiempo real.",
-                    "Control de asistencia 24/7.",
+                    "Reduce el ausentismo y llegadas tarde.",
+                    "Asigna puntos de marcación con geolocalización.",
+                    "Cacula horas extra con precisión.",
+                    "Visualiza toda la operación en un solo lugar."
                 ]}                
-                btnname="Contacta un asesor"
+                btnname="Probar Qontact hoy"
                 btnurl="https://calendly.com/d/cwdz-v6j-4t5/demo-qontact"
             ></About1>
             <HowWork></HowWork>
