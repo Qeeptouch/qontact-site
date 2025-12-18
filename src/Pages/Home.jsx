@@ -41,7 +41,9 @@ const Home = () => {
                             <strong>Colaboradores fichan a diario</strong>
                             }
                 rating="4.8/5"
-                ratingcon="Rating"
+                ratingcon={
+                            <strong>Rating</strong>
+                            }
                 img="/assets/images/intro/introThumb1_1.png"
             ></HeroBanner1>
             <Brand1></Brand1>
@@ -68,7 +70,7 @@ const Home = () => {
                 btnurl="https://calendly.com/d/cwdz-v6j-4t5/demo-qontact"
             ></About1>
             <HowWork></HowWork>
-            <Choose1
+            {/* <Choose1
                 subtitle="Beneficios"
                 title="¿Por qué controlar asistencia con Qontact?"
                 content="Controlar la asistencia con Qontact te permite ahorrar tiempo, eliminar el error humano y tener visibilidad en tiempo real de quién está presente, ausente o llegó tarde. Sin necesidad de instalar apps ni comprar hardware, Qontact simplifica la gestión diaria y te da datos claros para tomar mejores decisiones en tu equipo."
@@ -82,7 +84,7 @@ const Home = () => {
                 ]}                 
                 btnname="Pedí una demo"
                 btnurl="https://calendly.com/d/cwdz-v6j-4t5/demo-qontact"
-            ></Choose1>
+            ></Choose1> */}
             {/* <section className="arcade">
                 
                 <ArcadeEmbed />

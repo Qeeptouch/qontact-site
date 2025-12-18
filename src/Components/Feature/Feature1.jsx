@@ -5,12 +5,12 @@ const Feature1 = () => {
     return (
         <section className="wcu-section section-padding fix">
             <div className="wcu-container-wrapper style1">
-                <div className="container">
-                    <div className="section-title text-center mxw-685 mx-auto wow fadeInUp" data-wow-delay=".2s">
-                        <SectionTitle
-                            SubTitle="¿Que más tiene Qontact?"
-                            Title="Nuestro sistema está probado en todo tipo de empresas"
-                        ></SectionTitle>                       
+                <div className="container">      
+                    <div className="section-title text-center mxw-1450 mx-auto wow fadeInUp feature-section-title" data-wow-delay=".2s">
+                    <SectionTitle
+                        Title="Todo lo que Qontact hace por tu gestión diaria"
+                        SubTitle="¿Que más tiene Qontact?"
+                    ></SectionTitle>                       
                     </div>
                     <div className="wcu-wrapper style1">
                         <div className="row gy-5 d-flex justify-content-center">
@@ -40,10 +40,10 @@ const Feature1 = () => {
                             </div>
                             <div className="col-xl-4 d-flex justify-content-center">
                                 <div className="wcu-thumb wow fadeInUp" data-wow-delay=".2s">
-                                    <div className="main-thumb wow bounceInUp" data-wow-delay=".6s"><img
-                                            src="/assets/images/wcu/wcuThumb1_1.png" alt="thumb" /></div>
-                                    <div className="shape"><img src="/assets/images/shape/wcuThumbShape1_1.png" alt="shape" />
-                                    </div>
+                                    {/* <div className="main-thumb wow bounceInUp" data-wow-delay=".6s"><img
+                                            src="/assets/images/wcu/wcuThumb1_1.png" alt="thumb" /></div> */}
+                                    {/* <div className="shape"><img src="/assets/images/shape/wcuThumbShape1_1.png" alt="shape" />
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="col-xl-4 d-flex justify-content-center justify-content-xl-end">

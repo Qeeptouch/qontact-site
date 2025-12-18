@@ -18,7 +18,7 @@ const HowWork = () => {
                                 <div className="work-process-box style1 wow fadeInUp" data-wow-delay=".2s">
                                     <div className="step">PASO 1</div>
                                     <div className="title">Escanea el QR</div>
-                                    <div className="text">El colaborador escanea e inicia una conversación en WhatsApp</div>
+                                    <div className="text">El colaborador escanea el QR e inicia una conversación en WhatsApp</div>
                                 </div>
                             </div>
                             <div className="col-xl-4">
@@ -32,7 +32,7 @@ const HowWork = () => {
                                 <div className="work-process-box style1 wow fadeInUp" data-wow-delay=".6s">
                                     <div className="step">PASO 3</div>
                                     <div className="title">¡Fichada finalizada!</div>
-                                    <div className="text">Si todo coincide, verás la info en nuestra web en tiempo real</div>
+                                    <div className="text">Si todo coincide, se registra al instante!</div>
                                 </div>
                             </div>
                         </div>
