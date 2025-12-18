@@ -136,6 +136,39 @@ h6 {
   transition: all 0.4s ease-in-out;
 }
 
+/* estilo específico para este título de About */
+.hero-title-custom > span {
+  display: block;            /* permitir saltos de línea y line-height correcto */
+  font-size: 50px;          /* tamaño desktop */
+  font-weight: 400;
+  padding-top: 20px;
+  letter-spacing: -0.82px;
+  margin-bottom: px;
+}
+
+/* cada línea interna como bloque para controlar separación exacta */
+.hero-title-custom > span > span {
+  display: block;
+  margin-bottom: 1px;       /* separación extra entre renglones (opcional) */
+}
+
+/* responsive: reducir tamaño e interlineado en móviles */
+@media (max-width: 767px) {
+  .hero-title-custom > span {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .hero-title-custom > span > span {
+    margin-bottom: 4px;
+  }
+}
+/* responsive: tamaño para pantallas pequeñas */
+@media (max-width: 767px) {
+  .hero-title-custom > span {
+    font-size: 28px;    /* tamaño mobile */
+  }
+}
+
 /* override for headings or specific classes */
 h1, h2, h3 {
   font-family: var(--font-sans);
@@ -5876,10 +5909,10 @@ input.main-search-input::placeholder {
 .intro-wrapper.style1 .intro-content .intro-section-title .intro-title {
   color: var(--title);
   font-family: var(--font-sans), sans-serif;
-  font-size: 64px;
+  font-size: 60px;
   font-style: normal;
-  font-weight: 300;
-  line-height: 80px;
+  font-weight: 500;
+  line-height: 70px;
   letter-spacing: -1.28px;
   margin-bottom: 50px;
   margin-top: 25px;
@@ -5907,7 +5940,7 @@ input.main-search-input::placeholder {
   font-family: var(--font-sans), sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 28px;
   letter-spacing: -0.32px;
   margin-bottom: 60px;
@@ -6257,10 +6290,11 @@ input.main-search-input::placeholder {
   border-radius: 26px 0px 0px 26px;
 }
 
-/* 17.Brand */
+/* 17.Brand  marcas del slider */
 .brandSliderOne {
   padding: 30px 0 110px;
   border-bottom: 1px solid var(--border);
+  margin-top: 90px;
 }
 .brandSliderOne .brand-logo {
   text-align: center;
@@ -6275,7 +6309,7 @@ input.main-search-input::placeholder {
 }
 
 .brand-slider-wrapper.style1 .single-section-title {
-  font-size: 24px;
+  font-size: 30px;
 }
 .brand-slider-wrapper.style2 .single-section-title {
   font-size: 24px;

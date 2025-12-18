@@ -18,15 +18,28 @@ const Home = () => {
         <div>
             <HeroBanner1
                 subtitle="<span>Control de asistencia!</span>"
-                title="Hacemos más fácil el control de asistencia con WhatsApp"
-                content="Simplifica el control de presentismo con una solución que tu equipo entiende, adopta y usa desde el primer día, sin descargar apps."
+                title={
+                        <>
+                            <span>Hacemos más fácil</span><br />
+                            <span>el control de asistencia</span><br />
+                            <span>con WhatsApp</span>
+                        </>
+                        }
+                content={
+                        <>
+                            <span>Simplifica el control de presentismo con una solución que tu equipo</span><br />
+                            <span>entiende, adopta y usa desde el primer día, <strong>sin descargar apps.</strong></span><br />
+                        </>
+                        }
                 btnname="Escribinos"
                 btnurl="https://wa.me/+5491155930422"
                 btntwo="Probá la demo"
                 btn2url="https://demo.qontact.com.ar"
                 // cusimg="/assets/images/intro/introProfileThumb1_1.png"
-                cusnumber="+12.500"
-                cuscontent="Colaboradores fichan a diario"
+                cusnumber="+25.000"
+                cuscontent={
+                            <strong>Colaboradores fichan a diario</strong>
+                            }
                 rating="4.8/5"
                 ratingcon="Rating"
                 img="/assets/images/intro/introThumb1_1.png"
@@ -36,7 +49,15 @@ const Home = () => {
                 img1="/assets/images/about/aboutThumb1_1.png"
                 img2="/assets/images/about/aboutThumb1_2.png"
                 subtitle="Sobre Qontact"
-                title="Si controlar asistencia se volvió otra carga más, es momento de simplificar"
+                title={
+                    <>
+                        <span className="hero-title-custom">
+                        <span>Si controlar asistencia</span>
+                        <span>se volvió otra carga más,</span>
+                        <span>es momento de simplificar</span>
+                        </span>
+                    </>
+                        }
                 FeatureList={[
                     "Reduce el ausentismo y llegadas tarde.",
                     "Asigna puntos de marcación con geolocalización.",

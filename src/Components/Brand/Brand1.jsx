@@ -40,9 +40,9 @@ const Brand1 = () => {
             <div className="brand-slider-container-wrapper style1">
                 <div className="container">
                     <div className="brand-slider-wrapper style1">
-                        <h2 className="single-section-title wow fadeInUp" data-wow-delay=".01s">
+                        <h1 className="single-section-title wow fadeInUp" data-wow-delay=".01s">
                             Eligen Qontact
-                        </h2>
+                        </h1>
                         <div className="row">
                             <div className="slider-area brandSliderOne">
                                 <div className="swiper gt-slider" id="brandSliderOne" >
