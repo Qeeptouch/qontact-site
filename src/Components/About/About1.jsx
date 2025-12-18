@@ -34,7 +34,7 @@ const About1 = ({img1,img2,subtitle,title,content,FeatureList,btnname,btnurl}) =
                                         {/* <div className="subtitle wow fadeInUp" data-wow-delay=".2s">
                                             {subtitle} <img src="/assets/images/icon/fireIcon.svg" alt="icon" />
                                         </div> */}
-                                        <h2 className="hero-title-custom" data-wow-delay=".4s">{title}</h2>
+                                        <h2 className="hero-title-custom-about1" data-wow-delay=".4s">{title}</h2>
                                         <p className="section-desc wow fadeInUp" data-wow-delay=".6s">{content}</p>
                                     </div>
                                     <ul className="checklist style1 wow fadeInUp" data-wow-delay=".2s">

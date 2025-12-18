@@ -137,7 +137,7 @@ h6 {
 }
 
 /* estilo específico para este título de About */
-.hero-title-custom > span {
+.hero-title-custom-about1 > span {
   display: block;            /* permitir saltos de línea y line-height correcto */
   font-size: 50px;          /* tamaño desktop */
   font-weight: 400;
@@ -147,24 +147,57 @@ h6 {
 }
 
 /* cada línea interna como bloque para controlar separación exacta */
-.hero-title-custom > span > span {
+.hero-title-custom-about1 > span > span {
   display: block;
   margin-bottom: 1px;       /* separación extra entre renglones (opcional) */
 }
 
 /* responsive: reducir tamaño e interlineado en móviles */
 @media (max-width: 767px) {
-  .hero-title-custom > span {
+  .hero-title-custom-about1 > span {
     font-size: 28px;
     margin-bottom: 30px;
   }
-  .hero-title-custom > span > span {
+  .hero-title-custom-about1 > span > span {
     margin-bottom: 4px;
   }
 }
 /* responsive: tamaño para pantallas pequeñas */
 @media (max-width: 767px) {
-  .hero-title-custom > span {
+  .hero-title-custom-about1 > span {
+    font-size: 28px;    /* tamaño mobile */
+  }
+}
+
+/* estilo específico para este Brand1 */
+.hero-title-custom-brand1 > span {
+  display: block;            /* permitir saltos de línea y line-height correcto */
+  font-size: 50px;          /* tamaño desktop */
+  font-weight: 400;
+  padding-top: 20px;
+  letter-spacing: -0.82px;
+  margin-bottom: 10px;
+}
+
+/* cada línea interna como bloque para controlar separación exacta */
+.hero-title-custom-brand1 > span > span {
+  display: block;
+  margin-bottom: 1px;       /* separación extra entre renglones (opcional) */
+}
+
+/* responsive: reducir tamaño e interlineado en móviles */
+@media (max-width: 767px) {
+  .hero-title-custom-brand1 > span {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .hero-title-custom-brand1 > span > span {
+    margin-bottom: 4px;
+  }
+}
+/* responsive: tamaño para pantallas pequeñas */
+@media (max-width: 767px) {
+  .hero-title-custom-brand1 > span {
     font-size: 28px;    /* tamaño mobile */
   }
 }
@@ -2645,7 +2678,7 @@ input[type=radio]:checked ~ label::before {
   color: var(--title);
   text-align: center;
   font-family: var(--font-sans), sans-serif;
-  font-size: 48px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -5943,7 +5976,7 @@ input.main-search-input::placeholder {
   font-weight: 400;
   line-height: 28px;
   letter-spacing: -0.32px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 .intro-wrapper.style1 .intro-content .btn-wrapper {
   display: flex;
@@ -6294,7 +6327,7 @@ input.main-search-input::placeholder {
 .brandSliderOne {
   padding: 30px 0 110px;
   border-bottom: 1px solid var(--border);
-  margin-top: 90px;
+  margin-top: 40px;
 }
 .brandSliderOne .brand-logo {
   text-align: center;
