@@ -101,6 +101,15 @@ body {
   overflow-x: hidden;
 }
 
+/* Keep Kommo widget above all page imagery/content. */
+[id^="crm_plugin"] {
+  z-index: 2147483647 !important;
+}
+
+[id^="crm_plugin"] * {
+  z-index: 2147483647 !important;
+}
+
 ul {
   padding: 0;
   margin: 0;
