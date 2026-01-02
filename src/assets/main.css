@@ -110,6 +110,13 @@ body {
   z-index: 2147483647 !important;
 }
 
+/* Kommo livechat widget uses amo-* classes; force it above all content. */
+.amo-button-holder,
+#amo-livechat,
+#amo_brand {
+  z-index: 2147483647 !important;
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -6022,7 +6029,7 @@ input.main-search-input::placeholder {
 }
 .intro-wrapper.style1 .intro-thumb .main-thumb {
   position: relative;
-  z-index: 3;
+  z-index: 1;
 }
 @media (max-width: 767px) {
   .intro-wrapper.style1 .intro-thumb .main-thumb {
