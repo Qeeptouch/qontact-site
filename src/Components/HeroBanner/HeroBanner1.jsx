@@ -53,9 +53,9 @@ const HeroBanner1 = ({subtitle,title,content,btnname,btnurl,btntwo,btn2url,cusim
                                             </svg> */}
 
                                         </Link>
-                                        <Link className="theme-btn style2 wow fadeInUp" data-wow-delay=".2s"
+                                        {/* <Link className="theme-btn style2 wow fadeInUp" data-wow-delay=".2s"
                                             to={btn2url}>{btntwo}
-                                            {/* <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                 viewBox="0 0 16 16" fill="none">
                                                 <g clipPath="url(#clip0_11_27)">
                                                     <path
@@ -67,8 +67,8 @@ const HeroBanner1 = ({subtitle,title,content,btnname,btnurl,btntwo,btn2url,cusim
                                                         <rect width="16" height="16" fill="white" />
                                                     </clipPath>
                                                 </defs>
-                                            </svg> */}
-                                        </Link>
+                                            </svg>
+                                        </Link> */}
                                     </div>
                                     <div className="fancy-box-wrapper style1">
                                         <div className="fancy-box style1 wow fadeInUp" data-wow-delay=".2s">

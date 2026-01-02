@@ -33,9 +33,9 @@ const Home = () => {
                         }
                 btnname="Escribinos"
                 btnurl="https://wa.me/+5491155930422"
-                btntwo="Probá la demo"
-                btn2url="https://demo.qontact.com.ar"
-                // cusimg="/assets/images/intro/introProfileThumb1_1.png"
+                // btntwo="Probá la demo"
+                // btn2url="https://demo.qontact.com.ar"
+                // // cusimg="/assets/images/intro/introProfileThumb1_1.png"
                 cusnumber="+25.000"
                 cuscontent={
                             <strong>Colaboradores fichan a diario</strong>
